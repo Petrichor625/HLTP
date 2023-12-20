@@ -21,9 +21,9 @@ This repository contains the official implementation of **A Cognitive-Based Traj
 ###### **Note**
 
 - [x] [2023.12.20] Creating the repository for HLTP
-- []  Open source CAVG code
-- []  Update Readme
-- []  Update project code
+- [x] [2023.12.20]  Update Readme
+- Open source HLTP code
+
 
 
 
