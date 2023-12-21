@@ -35,7 +35,7 @@ In the field of autonomous vehicles (AVs), accurate trajectory prediction is ess
 
 ## Framework
 
-Overall “teacher-student” architecture of the HLTP. The Surround-aware encoder and the Teacher Encoder within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
+Overall “teacher-student” architecture of the HLTP. The Surround-aware and the Teacher Encoders within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
 
 ![image](https://github.com/Petrichor625/HLTP/blob/main/framework.png)
 
