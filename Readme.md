@@ -1,4 +1,4 @@
-#  HLTP
+#  HLTP: A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving
 
 ## Overview
 
