@@ -4,6 +4,7 @@
 
 This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **IEEE Transactions on Intelligent Vehicles.**
 
+ ![image](https://github.com/Petrichor625/HLTP/blob/main/head_image.jpg)
 
 ## Highlights
 
