@@ -82,7 +82,7 @@ python evaluate_student.py
 ```
 
 ## Citation
-**A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **IEEE Transactions on Intelligent Vehicles.** (Camera-ready)
+**A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **_IEEE Transactions on Intelligent Vehicles_.** (Camera-ready)
 
 ```
 
