@@ -3,7 +3,6 @@
 ## Overview
 
 This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **IEEE Transactions on Intelligent Vehicles.**
- ![image](https://github.com/Petrichor625/HLTP/blob/main/visual.gif)
 
 
 ## Highlights
@@ -26,8 +25,8 @@ In the field of autonomous vehicles (AVs), accurate trajectory prediction is ess
 ## Framework
 
 Overall “teacher-student” architecture of the HLTP. The Surround-aware encoder and the Teacher Encoder within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
-
 ![framework](https://github.com/Petrichor625/HLTP/blob/main/framework.png)
+
 
 
 
@@ -62,6 +61,7 @@ We are preparing a script for generating these visualizations:
  Code for qualitative results coming soon.
  ````
 
+ ![image](https://github.com/Petrichor625/HLTP/blob/main/visual.gif)
 
 
 
