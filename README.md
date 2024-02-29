@@ -4,7 +4,7 @@
 
 This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**
 
-
+![运动轨迹动图](.\pic\visual.gif)
 
 ## Highlights
 
@@ -16,34 +16,52 @@ This repository contains the official implementation of **A Cognitive-Based Traj
 - Exhibiting remarkable performance even with fewer input observations and in scenarios characterized by missing data, which demonstrates the model’s robustness and accuracy across various traffic conditions, including on highways and in dense urban environments.
 
 
-## To-do List
-
-###### **Note**
-
-- [x] [2023.12.20] Creating the repository for HLTP
-- [x] [2023.12.20]  Update Readme
-- Open source HLTP code
-
-
-
 
 ## Abstract
 
-In the field of autonomous vehicles (AVs), accurate trajectory prediction is essential for safe and efficient navigation. More importantly, the predicted trajectories must be consistent with human driving behavior, which is even safer and able to respond effectively to unexpected situations. Therefore, we present a Human-Like Trajectory Prediction (HLTP) model that emulates human cognitive processes for improved trajectory prediction in AVs. The HLTP model incorporates a sophisticated teacher-student knowledge distillation framework. The teacher model, equipped with an adaptive visual sector, mimics the visual processing of the human brain, particularly the functions of the occipital and temporal lobes. The student model focuses on real-time interaction and decision-making, drawing parallels to prefrontal and parietal cortex functions. This dual-model approach allows for dynamic adaptation to changing driving scenarios, capturing essential perceptual cues for accurate prediction. Evaluated using the Macao Connected and Autonomous Driving (MoCAD) dataset, along with the NGSIM and HighD benchmarks, HLTP demonstrates superior performance compared to existing models, particularly in challenging environments with incomplete data.
+In the field of autonomous vehicles (AVs), accurate trajectory prediction is essential for safe and efficient navigation. More importantly, the predicted trajectories must be consistent with human driving behavior, which is even safer and able to respond effectively to unexpected situations. Therefore, we present a Human-Like Trajectory Prediction (HLTP) model that emulates human cognitive processes for improved trajectory prediction in AVs. The HLTP model incorporates a sophisticated teacher-student knowledge distillation framework. The teacher model, equipped with an adaptive visual sector, mimics the visual processing of the human brain, particularly the functions of the occipital and temporal lobes. The student model focuses on real-time interaction and decision-making, drawing parallels to prefrontal and parietal cortex functions. This dual-model approach allows for dynamic adaptation to changing driving scenarios, capturing essential perceptual cues for accurate prediction. Evaluated using the Macao Connected and Autonomous Driving (MoCAD) dataset, along with the NGSIM and HighD benchmarks, HLTP demonstrates superior performance compared to existing models, particularly in challenging environments with incomplete data. The project page is available at https://github.com/Petrichor625/Map-Free-Behavior-Aware-Model.
 
 
 
 ## Framework
 
-Overall “teacher-student” architecture of the HLTP. The Surround-aware and the Teacher Encoders within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
+Overall “teacher-student” architecture of the HLTP. The Surround-aware encoder and the Teacher Encoder within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
 
-![image](https://github.com/Petrichor625/HLTP/blob/main/framework.png)
+![framework](.\pic\framework.png)
+
 
 
 ## Environment
 
 - **Operating System**: Ubuntu 20.04
-- **CUDA Version**: 11.4
+- **CUDA Version**: 11.3
+
+## Setting up
+
+1.**Creating the Conda Environment for HLTP**: 
+
+For optimal use of the CAVG, follow these setup guidelines:
+
+```
+conda create -name HLTP python=3.7
+conda activate HLTP
+```
+
+2.**Installing PyTorch**:
+
+Install PyTorch and associated libraries compatible with CUDA 11.3:
+
+```
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+```
+
+**Installing Additional Requirements**: 
+
+Complete the environment setup by installing necessary packages from `requirements.txt`:
+
+```
+pip install -r requirements.txt
+```
 
 
 
