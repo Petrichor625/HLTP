@@ -3,7 +3,7 @@
 ## Overview
 
 This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **IEEE Transactions on Intelligent Vehicles.**
-
+ ![image](https://github.com/Petrichor625/HLTP/blob/main/visual.gif)
 
 
 ## Highlights
@@ -59,9 +59,9 @@ python train_student.py
 We are preparing a script for generating these visualizations:
 
  ````
- Code for qualitative results coming soon
+ Code for qualitative results coming soon.
  ````
- ![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Qualitative%20results.gif)
+
 
 
 
