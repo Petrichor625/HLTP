@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**
+This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **IEEE Transactions on Intelligent Vehicles.**
 
 
 
@@ -27,7 +27,7 @@ In the field of autonomous vehicles (AVs), accurate trajectory prediction is ess
 
 Overall “teacher-student” architecture of the HLTP. The Surround-aware encoder and the Teacher Encoder within the “teacher” model process visual vectors and context matrices to produce surround-aware and visual-aware vectors, respectively. These vectors are then fed into the Teacher Multimodal Decoder, which enables the prediction of different potential maneuvers for the target vehicle, each with associated probabilities. The “student” model acquires knowledge from the “teacher” model using a Knowledge Distillation Modulation (KDM) training strategy. This approach ensures accurate, human-like trajectory predictions even with minimal observational data.
 
-![framework](.\pic\framework.png)
+![framework](https://github.com/Petrichor625/HLTP/blob/main/framework.png)
 
 
 
@@ -54,6 +54,16 @@ Then, you need to train the HLTP student model by using specific pretrained teac
 python train_student.py
 ```
 
+## Qualitative results
+
+We are preparing a script for generating these visualizations:
+
+ ````
+ Code for qualitative results coming soon
+ ````
+ ![image](https://github.com/Petrichor625/BATraj-Behavior-aware-Model/blob/main/Figures/Qualitative%20results.gif)
+
+
 
 
 ## Evaluation
@@ -69,4 +79,13 @@ To evaluate the HLTP student model, you can use the following command to start t
 ```
 python evaluate_student.py
 ```
+
+## Citation
+**A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **IEEE Transactions on Intelligent Vehicles.** (Camera-ready)
+
+```
+
+```
+ 
+
 
