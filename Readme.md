@@ -36,7 +36,7 @@ Overall “teacher-student” architecture of the HLTP. The Surround-aware encod
 - **Operating System**: Ubuntu 20.04
 - **CUDA Version**: 11.4
 
- The NGSIM and HighD datasets in our work is segmented in the same way as the work ([stdan](https://ieeexplore.ieee.org/document/9767719))
+ The NGSIM and HighD datasets in our work are segmented in the same way as the work ([stdan](https://ieeexplore.ieee.org/document/9767719))
 
 
 ## Train
