@@ -60,7 +60,7 @@ python train_student.py
 We are preparing a script for generating these visualizations:
 
  ````
- Code for qualitative results coming soon.
+ Code for qualitative results is uploaded.
  ````
 
  ![image](https://github.com/Petrichor625/HLTP/blob/main/visual.gif)
