@@ -86,7 +86,12 @@ python evaluate_student.py
 **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, accepted by the journal **_IEEE Transactions on Intelligent Vehicles_.** (Camera-ready)
 
 ```
-
+@article{liao2024cognitive,
+  title={A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving},
+  author={Liao, Haicheng and Li, Yongkang and Li, Zhenning and Wang, Chengyue and Cui, Zhiyong and Li, Shengbo Eben and Xu, Chengzhong},
+  journal={arXiv preprint arXiv:2402.19251},
+  year={2024}
+}
 ```
  
 
