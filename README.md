@@ -117,7 +117,7 @@ The HLTP’s teacher-student architecture involves:
 
 If you find our work useful in your research, please cite:
 
-**A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, published in the journal **_IEEE Transactions on Intelligent Vehicles_** (Camera-ready version).
+**A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, published in the journal **_IEEE Transactions on Intelligent Vehicles_**.
 
 ```
 @ARTICLE{10468619,
