@@ -1,6 +1,7 @@
 # 🚗 **HLTP: Human-Like Trajectory Prediction**
-## ⚠️ **Important Update**
+This repository contains the official implementation of **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**, published in the journal **_IEEE Transactions on Intelligent Vehicles_**.
 
+## ⚠️ **Important Update**
 
 🚀 **We’ve Uploaded the Latest Version!**  
 We’re excited to announce that the repository now includes the **correct and complete version of the code**, along with all necessary model weights and components. This update should resolve any previous issues and allows you to fully replicate the results as described in our paper.
