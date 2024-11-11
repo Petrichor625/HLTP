@@ -1,7 +1,7 @@
-🚗 **HLTP: Human-Like Trajectory Prediction**
+#🚗 **HLTP: Human-Like Trajectory Prediction**
 
 
-# ⚠️ **Important Update**
+## ⚠️ **Important Update**
 
 
 🚀 **We’ve Uploaded the Latest Version!**  
