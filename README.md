@@ -9,7 +9,6 @@ We’re excited to announce that the repository now includes the **correct and c
 
 Please download or pull the latest version to ensure you have the most up-to-date files. Thank you for your patience and support!
 
----
 
 🔗 **For any questions or support, feel free to reach out!**
 
@@ -19,8 +18,7 @@ Please download or pull the latest version to ensure you have the most up-to-dat
 Welcome to the official repository for **A Cognitive-Based Trajectory Prediction Approach for Autonomous Driving**.
 
  ![image](https://github.com/Petrichor625/HLTP/blob/main/HLTP/HLTP/pic/visual.gif)
----
-
+ 
 
 ## ✨ Highlights
 
@@ -36,14 +34,14 @@ Welcome to the official repository for **A Cognitive-Based Trajectory Prediction
 - **Robust Performance**  
   Demonstrates outstanding robustness and accuracy with fewer input observations and even with missing data, performing consistently across diverse traffic conditions, including highways and dense urban environments.
 
----
+
 
 ## 📜 Abstract
 
 Accurate trajectory prediction is vital for autonomous vehicles (AVs) to ensure safe and efficient navigation. To enhance safety and adaptability, predicted trajectories must align with human-like driving behavior. The **Human-Like Trajectory Prediction (HLTP)** model leverages a teacher-student knowledge distillation framework. The teacher model, equipped with an adaptive visual sector, mimics human brain visual processing (occipital and temporal lobes), while the student model focuses on real-time interaction and decision-making, reflecting functions of the prefrontal and parietal cortex. This dual-model approach dynamically adapts to evolving driving scenarios, capturing perceptual cues for precise prediction. Evaluated on the **Macao Connected and Autonomous Driving (MoCAD)** dataset, as well as **NGSIM** and **HighD** benchmarks, HLTP consistently outperforms existing models, especially in complex environments with incomplete data.  
 For further details, visit the **[Project Page](https://github.com/Petrichor625/HLTP)**.
 
----
+
 
 ## 🧠 Framework
 
@@ -54,14 +52,14 @@ The HLTP’s teacher-student architecture involves:
 
  ![image](https://github.com/Petrichor625/HLTP/blob/main/HLTP/HLTP/pic/framework.png)
 
----
+
 
 ## ⚙️ Environment
 
 - **Operating System**: Ubuntu 20.04
 - **CUDA Version**: 11.3
 
----
+
 
 ## 🔧 Setup Instructions
 
@@ -87,7 +85,7 @@ The HLTP’s teacher-student architecture involves:
    pip install -r requirements.txt
    ```
 
----
+
 
 ## 🏋️‍♂️ Training
 
@@ -99,13 +97,12 @@ The HLTP’s teacher-student architecture involves:
    ```
 
 2. **Train the Student Model**  
-   Train the student model using the pretrained teacher model:
+   Train the student model using the pre-trained teacher model:
 
    ```bash
    python train_student.py
    ```
 
----
 
 ## 📊 Evaluation
 
@@ -123,7 +120,7 @@ The HLTP’s teacher-student architecture involves:
    python evaluate_student.py
    ```
 
----
+
 
 ## 📌 Citation
 
@@ -144,7 +141,7 @@ If you find our work useful in your research, please cite:
   doi={10.1109/TIV.2024.3376074}}
 ```
 
----
+
 
 Thank you for exploring HLTP! If you have questions or need further assistance, feel free to reach out.
 
