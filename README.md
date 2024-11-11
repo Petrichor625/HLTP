@@ -1,6 +1,18 @@
 🚗 **HLTP: Human-Like Trajectory Prediction**
 
+
+# ⚠️ **Important Update**
+
+
+🚀 **We’ve Uploaded the Latest Version!**  
+We’re excited to announce that the repository now includes the **correct and complete version of the code**, along with all necessary model weights and components. This update should resolve any previous issues and allows you to fully replicate the results as described in our paper.
+
+Please download or pull the latest version to ensure you have the most up-to-date files. Thank you for your patience and support!
+
 ---
+
+🔗 **For any questions or support, feel free to reach out!**
+
 
 ## 📖 Overview
 
