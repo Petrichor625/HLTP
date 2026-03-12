@@ -415,4 +415,4 @@ def cutout_attention(tensor1, tensor2, x, y, corresponding=True, stride_x=8, str
         masks0 = torch.stack(masks0, dim=3)
         masks0 = masks0.permute(0, 1, 2, 4, 3)
 
-    return masks / count
+    return mask0
