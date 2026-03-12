@@ -190,7 +190,8 @@ class highwayNet(nn.Module):
         self.softmax = torch.nn.Softmax(dim=1)
         self.Linformer_attention = Linformer_1(self.args)
         self.tea_exchange = torch.nn.Linear(31, 30)
-
+        self.weights = nn.Linear(60, 1)   
+        
     def forward(self, hist, nbrs, masks, lat_enc, lon_enc, lane, nbrslane, cls, nbrscls, va, nbrsva, edge_index_batch,
                 ve_matrix_batch, ac_matrix_batch, man_matrix_batch, mask_view_batch, graph_matrix):
 
